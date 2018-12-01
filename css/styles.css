@@ -1,5 +1,13 @@
+img, object, embed, video {
+  max-width: 100%;
+}
+
 h1 {
   text-transform: uppercase;
   text-align: center;
   text-decoration: underline;
+}
+
+li:nth-last-of-type(1) {
+  color: blue;
 }
