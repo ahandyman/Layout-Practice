@@ -1,0 +1,129 @@
+img, object, embed, video {
+  max-width: 100%;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* li:nth-last-of-type(1) {
+  color: blue;
+} */
+
+nav, a, button {
+  min-width: 48px;
+  min-height: 48px;
+}
+
+header {
+  background-color: #CC0012;
+  color: #030F33;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  background-color: #01DA00
+}
+
+li {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.one {
+  background-color: #5d5161;
+  order: 4;
+  width: 70%;
+}
+
+.two {
+  background-color: #0a5d66;
+  order: 5;
+  width: 30%;
+}
+
+.three {
+  background-color: #115166;
+  order: 7;
+  width: 50%;
+}
+
+.four {
+  height: auto;
+  width: 75%;
+  order: 3;
+  background-color: lightblue;
+}
+
+.five {
+  background-color: aqua;
+  /* width: 150px;
+  height: auto; */
+  order: 1;
+  width: 100%;
+}
+
+.six {
+  background-color: #c2b5b5;
+  order: 2;
+  width: 25%;
+  /*height: auto; */
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.vertical {
+  display: flex;
+  width: 50%;
+  /* height: auto; */
+  flex-wrap: wrap;
+  order: 6;
+}
+
+.computer {
+  width: 100%;
+  background-color: #00ff00;
+  order: 1;
+  /* height: 15px; */
+}
+
+.phone {
+  width: 33.333%;
+  background-color: #431212;
+  order: 2;
+}
+
+.chips {
+  width: 33.333%;
+  background-color: #48b248;
+  order: 3;
+}
+
+.contact {
+  width: 33.333%;
+  background-color: #881159;
+  order: 4;
+}
+
+.info {
+  width: 100%;
+  background-color: #555500;
+  order: 5;
+}
+
+.twelve {
+  order: 12;
+  background-color: #745076;
+}

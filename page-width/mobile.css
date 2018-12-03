@@ -1,0 +1,73 @@
+body {
+  background-color: #849384;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.one {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  order: 1;
+}
+
+.two {
+  width: 100%;
+  background-color: red;
+  color: white;
+  order: 2;
+  border: solid 5px red;
+}
+
+.three {
+order: 3;
+border: solid 5px red;
+}
+
+.four {
+order: 4;
+border: solid 5px red;
+}
+
+.five {
+order: 5;
+border: solid 5px red;
+}
+
+.six {
+order: 6;
+border: solid 5px red;
+}
+
+.seven {
+order: 7;
+border: solid 5px red;
+}
+
+.eight {
+order: 8;
+border: solid 5px red;
+}
+
+.nine {
+order: 9;
+border: solid 5px red;
+}
+
+.ten {
+order: 10;
+border: solid 5px red;
+}
+
+.eleven {
+order: 11;
+border: solid 5px red;
+}
+
+.twelve {
+order: 12;
+border: solid 5px red;
+}
