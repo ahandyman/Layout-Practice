@@ -2,72 +2,123 @@ body {
   background-color: #849384;
 }
 
-.content {
+.hamburger>div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.sidenav {
+  order: 1;
+  width: 15%;
+  /* position: absolute; */
+  /* z-index: -1; */
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.group1{
+  order: 2;
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.main {
+
+  width: 100%;
+}
+
+.content, header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keyPoints {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  width: 90%;
+  order: 2;
+}
+
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+  width: 10%;
+  order: 1;
 }
 
 .one {
   width: 100%;
   background-color: blue;
   color: white;
-  order: 1;
+  order: 2;
 }
 
 .two {
   width: 100%;
   background-color: red;
   color: white;
-  order: 2;
-  border: solid 5px red;
+  order: 1;
 }
 
 .three {
-order: 3;
-border: solid 5px red;
+  order: 3;
+  width: 100%;
 }
 
 .four {
-order: 4;
-border: solid 5px red;
+  order: 4;
+  width: 100%;
 }
 
 .five {
-order: 5;
-border: solid 5px red;
+  order: 5;
+  width: 100%;
 }
 
 .six {
-order: 6;
-border: solid 5px red;
+  order: 6;
+  width: 50%;
 }
 
 .seven {
-order: 7;
-border: solid 5px red;
+  order: 7;
+  width: 50%;
 }
 
-.eight {
-order: 8;
-border: solid 5px red;
+/* .eight {
+  order: 8;
+  width: 100%;
 }
 
 .nine {
-order: 9;
-border: solid 5px red;
+  order: 9;
+  width: 100%;
 }
 
 .ten {
-order: 10;
-border: solid 5px red;
+  order: 10;
+  width: 100%;
 }
 
 .eleven {
-order: 11;
-border: solid 5px red;
+  order: 11;
+  width: 100%;
 }
 
 .twelve {
-order: 12;
-border: solid 5px red;
-}
+  order: 12;
+  width: 100%;
+} */
