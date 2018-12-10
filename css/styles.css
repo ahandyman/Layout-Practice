@@ -8,27 +8,12 @@ h1 {
   text-decoration: underline;
 }
 
-/* li:nth-last-of-type(1) {
-  color: blue;
-} */
-
-nav, a, button {
+.sidenav, a, button {
   min-width: 48px;
   min-height: 48px;
 }
 
-header {
-  background-color: #CC0012;
-  color: #030F33;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  background-color: #01DA00
-}
-
-li {
-  margin-left: auto;
-  margin-right: auto;
+.uppercase {
+  text-transform: uppercase;
+  text-decoration: underline;
 }
